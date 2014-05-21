@@ -11,19 +11,19 @@ A description of the data is available here <http://archive.ics.uci.edu/ml/datas
 
 Data were downloaded from the provided website and extracted from the zip file.  Upon examination of the documentation provided with the dataset, five relevant pieces of information were used:
 
-**1. The Activity Labels ** 
+**1. The Activity Labels** 
 This information is found in the top level directory in the `activity_labels.txt` file and contains activity descriptions and associated IDs
 
-**2. The Variable Names ** 
+**2. The Variable Names** 
 This information is also found in the top level directory in the `features.txt` file and contains the variable names of interest.  A full description of naming conventions and processing used to create the variables is available in `features_info.txt`
 
-**3.  The Data ** 
+**3.  The Data** 
 The test data and training data are found in the test and train directories in `X_test.txt` and `X_train.txt` respectively.  These files contain the data for each subject, activity, and variable.  
 
-**4. The Subject Identifiers **
+**4. The Subject Identifiers**
 These data are found in the test and train directories in `subject_test.txt` and `subject_train.txt` respectively.  The subject IDs correspond to rows in the test and training data from #3.  
 
-**5. The Activity Identifiers **
+**5. The Activity Identifiers**
 These data are found in the test and train directories in `y_test.txt` and `y_train.txt` respectively.  These data consist of activity IDs that are associated with each row in the test and training data from #3 and can be linked to the activity labesl in #1.  
 
 
@@ -32,22 +32,22 @@ There is also raw inertial signals data included in the Inertial Signals directo
 ## Data Processing
 After loading the five pieces of information described above, the data were processed to produce a tidy dataset by:
 
-**1. Selecting relevant Means and Standard Devations **
+**1. Selecting relevant Means and Standard Devations**
 Not all of the features (variables) included in the dataset are relevant to our pursuits and interests.  Only mean and standard deviation features (variables) were selected.  
 
-** 2. Combining Test and Training Data **
+** 2. Combining Test and Training Data**
 The test and training data were combined and labeled accordingly.  
 
-** 3.  Adding Subject IDs **
+** 3.  Adding Subject IDs**
 Subject IDs were added to the data from part #4 above.  
 
-** 4. Labelling Activities **
+** 4. Labelling Activities**
 Activites were labeled according to information provided in part #1 and #5 above.  
 
-** 5. Averaging by Subject and Activity **
+** 5. Averaging by Subject and Activity**
 The mean of each variable was determined for each variable, subject and activity
 
-** 6. Conversion to Tidy Format **
+** 6. Conversion to Tidy Format**
 The data were converted to a tidy format with fixed variables then measured variables as columns and each row an observation.  
 
 The tidy data can be found in `tidy_data.txt` provided with this Code Book.  
@@ -56,13 +56,13 @@ The tidy data can be found in `tidy_data.txt` provided with this Code Book.
 
 Column names for the variables included in the tidy dataset are included in Table 1 below.  
 
-** Subject.ID ** is a unique identifier for each subject that participated in the original study.  
+**Subject.ID** is a unique identifier for each subject that participated in the original study.  
 
-** Activity ** describes one of six activities that study participants enjoyed.  
+**Activity** describes one of six activities that study participants enjoyed.  
 
-** Set ** denotes whether the data were designated as part of the training or test set.  
+**Set** denotes whether the data were designated as part of the training or test set.  
 
-** Other Variables ** are the measured variables provided by the study.  Variables beginning with an *f* denote frequency domains while variables beginning with a *t* denote time domains.  Variables containing X,Y, or Z designations denote metrics for that axis respectively while the absence of such designations denotes magnitude across the axes.  Means and standard deviations (std) are labeled accordingly.  
+**Other Variables** are the measured variables provided by the study.  Variables beginning with an *f* denote frequency domains while variables beginning with a *t* denote time domains.  Variables containing X,Y, or Z designations denote metrics for that axis respectively while the absence of such designations denotes magnitude across the axes.  Means and standard deviations (std) are labeled accordingly.  
 
 
 ### Table 1

@@ -32,10 +32,10 @@ Good luck!
 #### Enclosed files
 There are four files in this repository:
 
-** 1. README.md ** This file contains a brief project description and an explanation of other enclosed files.  
+**1. README.md** This file contains a brief project description and an explanation of other enclosed files.  
 
-** 2. CodeBook.md ** This file contains a description of the steps involved in data processing and descriptions of variables provided in:
+**2. CodeBook.md** This file contains a description of the steps involved in data processing and descriptions of variables provided in:
 
-** 3. tidy_data.txt ** This file contains all the relevant tidy data in accordance with project descriptions.  
+**3. tidy_data.txt** This file contains all the relevant tidy data in accordance with project descriptions.  
 
-** 4. run_analysis.R ** This file contains all the code used to process the data and create the tidy dataset.  
+**4. run_analysis.R** This file contains all the code used to process the data and create the tidy dataset.  
