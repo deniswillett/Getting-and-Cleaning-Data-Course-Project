@@ -35,19 +35,19 @@ After loading the five pieces of information described above, the data were proc
 **1. Selecting relevant Means and Standard Devations**
 Not all of the features (variables) included in the dataset are relevant to our pursuits and interests.  Only mean and standard deviation features (variables) were selected.  
 
-** 2. Combining Test and Training Data**
+**2. Combining Test and Training Data**
 The test and training data were combined and labeled accordingly.  
 
-** 3.  Adding Subject IDs**
+**3.  Adding Subject IDs**
 Subject IDs were added to the data from part #4 above.  
 
-** 4. Labelling Activities**
+**4. Labelling Activities**
 Activites were labeled according to information provided in part #1 and #5 above.  
 
-** 5. Averaging by Subject and Activity**
+**5. Averaging by Subject and Activity**
 The mean of each variable was determined for each variable, subject and activity
 
-** 6. Conversion to Tidy Format**
+**6. Conversion to Tidy Format**
 The data were converted to a tidy format with fixed variables then measured variables as columns and each row an observation.  
 
 The tidy data can be found in `tidy_data.txt` provided with this Code Book.  
