@@ -41,7 +41,7 @@ The test and training data were combined and labeled accordingly.
 **3.  Adding Subject IDs**
 Subject IDs were added to the data from part #4 above.  
 
-**4. Labelling Activities**
+**4. Labeling Activities**
 Activites were labeled according to information provided in part #1 and #5 above.  
 
 **5. Averaging by Subject and Activity**
